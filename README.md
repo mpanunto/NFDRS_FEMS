@@ -2,6 +2,21 @@
 
 # NFDRS_FEMS
 
-Tool that downloads FEMS data for stations of interest, and processes it to create percentile lookup tables & NFDRS charts for each index. Calculations are performed at 3 scales: GACC, PSA, and Station.
+Tool that automates the download and processing of FEMS data for user-specified stations. For each selected index, it generates:
 
-Users must provide the included [StationList.csv](https://github.com/mpanunto/NFDRS_FEMS/blob/main/StationList.csv) as input to the tool. This CSV file has the Northern California Geographic Area Coordination Center (ONCC) stations listed by default, but it can be modified to download & process the user's desired stations.
+- Daily listings  
+- Percentile breakpoint tables  
+- Percentile lookup tables  
+- NFDRS charts
+
+Calculations are performed at three geographic scales:
+
+- **GACC** (Geographic Area Coordination Center)  
+- **PSA** (Predictive Service Area)  
+- **Station**
+
+## Input Requirements
+
+Users must provide a [StationList.csv](https://github.com/mpanunto/NFDRS_FEMS/blob/main/StationList.csv) file as input, which specifies the stations to include in the analysis.
+
+A sample CSV is included with default stations from the **Northern California Geographic Area Coordination Center (ONCC)**. This file can be edited to include any stations the user wishes to download and process.
