@@ -2,4 +2,4 @@
 
 # NFDRS_FEMS
 
-Tool that downloads FEMS data for stations of interest, and processes it to create percentile lookup tables & NFDRS charts for each index.
+Tool that downloads FEMS data for stations of interest, and processes it to create percentile lookup tables & NFDRS charts for each index. Calculations are performed at 3 scales: by GACC, PSA, and Station.
