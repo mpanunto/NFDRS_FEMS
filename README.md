@@ -17,7 +17,7 @@ Calculations are performed at three geographic scales:
 
 ## Input Requirements
 
-Users must provide the [StationList.csv](https://github.com/mpanunto/NFDRS_FEMS/blob/main/StationList.csv) file as input, which specifies the stations to include in the analysis. This sample CSV is included, pre-populated with default stations from the **Northern California Geographic Area Coordination Center (ONCC)**. Users can freely edit this file to include any stations they wish to download and process.
+Users must provide the [StationList.csv](https://github.com/mpanunto/NFDRS_FEMS/blob/main/StationList.csv) file as input, which specifies the stations to include in the analysis. This CSV is included, pre-populated with default stations from the **Northern California Geographic Area Coordination Center (ONCC)**. Users can freely edit this file to include any stations they wish to download and process.
 
 While the tool is designed to support processing at the **GACC** and **PSA** levels, these fields are flexible — users simply need to ensure consistent naming for their chosen **GACC** and **PSA** values. For example, a PSA could represent a custom grouping of stations within a Dispatch Boundary, FDRA, or any other user-defined region.
 
