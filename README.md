@@ -9,7 +9,7 @@ Tool that automates the download and processing of FEMS data for user-specified 
 - Percentile lookup tables  
 - NFDRS charts
 
-Calculations are performed at three geographic scales:
+Products are performed at three geographic scales:
 
 - **GACC** (Geographic Area Coordination Center)  
 - **PSA** (Predictive Service Area)  
