@@ -2,7 +2,7 @@
 
 # NFDRS_FEMS
 
-Tool that automates the download and processing of FEMS data for user-specified stations. For each selected fire danger index, it generates:
+Tool that automates the download and processing of FEMS data for user-specified RAWS stations. For each selected fire danger index, it generates:
 
 - Daily listings  
 - Percentile breakpoint tables  
