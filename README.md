@@ -21,9 +21,9 @@ Users must provide the [StationList.csv](https://github.com/mpanunto/NFDRS_FEMS/
 
 While the tool was designed specifically to support processing FEMS data at the **GACC** and **PSA** levels, these fields of the input CSV are flexible — users simply need to ensure consistent naming for their chosen **GACC** and **PSA** values. For example, a PSA could represent a custom grouping of stations within a Dispatch Boundary, FDRA, or any other user-defined region.
 
-![screenshot_NFDRS_FEMS_1.png](/screenshot_NFDRS_FEMS_1.png)
+![screenshot_NFDRS_FEMS_1.png](/docs/screenshot_NFDRS_FEMS_1.png)
 
-![screenshot_NFDRS_FEMS_2.png](/screenshot_NFDRS_FEMS_2.png)
+![screenshot_NFDRS_FEMS_2.png](/docs/screenshot_NFDRS_FEMS_2.png)
 
 
 ## Usage
