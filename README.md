@@ -15,8 +15,15 @@ Products are generated at three geographic scales:
 - **PSA** (Predictive Service Area)  
 - **Station**
 
-## Input Requirements
+## Inputs
 
+### Historical Data Range
+Specify a start and end date for the data download in YYYY-MM-DD format
+
+### Seasonal Filter (optional)
+Specify a start and end date for the data download in MM-DD format. This will filter the historical data range to the user's specified "season" when calculating percentile breakpoints and percentile tables for each index.
+
+### StationList CSV
 Users must provide the [StationList.csv](https://github.com/mpanunto/NFDRS_FEMS/blob/main/StationList.csv) file as input, which specifies the stations to include in the analysis and which fuel model to use for each. The CSV also provides the corresponding GACC and PSA for each station, which is critical for correctly averaging the data across stations to generate accurate GACC/PSA-level values and charts. This CSV is included in the repository download, and is pre-populated with default stations from the Northern California Geographic Area Coordination Center (ONCC). Users may freely edit this file to include any stations they wish to process.
 
 While the tool was originally designed to process FEMS data at the GACC and PSA levels, these fields of the input CSV are flexible. Users simply need to ensure consistent naming for their chosen GACC and PSA values. For example, a PSA could represent a custom group of stations within a FDRA, Dispatch Boundary, or any other user-defined region. ***However, the original field names of the input CSV must not be changed***.
@@ -26,6 +33,10 @@ The below screenshot is an example of how the input CSV could be modified to dow
 ![screenshot_NFDRS_FEMS_1.png](/docs/screenshot_NFDRS_FEMS_1.png)
 
 
+-
+
+Seasonal Filter
+-Filters the specified historical data range to the specified "fire season".
 
 ![screenshot_NFDRS_FEMS_2.png](/docs/screenshot_NFDRS_FEMS_2.png)
 
