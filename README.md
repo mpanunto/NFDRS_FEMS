@@ -49,17 +49,14 @@ The tool processes the FEMS data at 3 levels: GACC, PSA, and Station
    - 1HrFM/10HrFM/100HrFM/1000HrFM: 40, 20, 10, 3, 1
    - All others: 60, 80, 90, 97, 100
    - Daily listing also used to create percentile lookup tables for each index
-<br>
 
 ### PSA:
  - Process above is applied to only the group of stations within each PSA
  - Repeated for each PSA
-<br>
 
 ### Station
  - Process above is applied to each individual station. However, since it is just an individual station, the historical record IS the “Daily Listing”. No averaging across stations is needed.
  - Repeated for each Station
-<br>
 
 ## NFDRS Charts
 
