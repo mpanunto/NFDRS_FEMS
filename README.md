@@ -25,6 +25,10 @@ The below screenshot is an example of how the input CSV could be modified to dow
 
 ![screenshot_NFDRS_FEMS_1.png](/docs/screenshot_NFDRS_FEMS_1.png)
 
+
+
+![screenshot_NFDRS_FEMS_2.png](/docs/screenshot_NFDRS_FEMS_2.png)
+
 ## Data Processing
 
 The tool processes the FEMS data at 3 levels: GACC, PSA, and Station
@@ -63,9 +67,9 @@ Using the PercentileBreakpoint and DOY CSV files for each GACC/PSA/Station, char
 
 The visual style of the charts was inspired by those made available via [Eric Drewitz's FireWxPy Python Library](https://pypi.org/project/firewxpy/)
 
-![screenshot_NFDRS_FEMS_2.png](/docs/screenshot_NFDRS_FEMS_2.png)
+![screenshot_NFDRS_FEMS_2.png](/docs/screenshot_NFDRS_FEMS_3.png)
 
-![screenshot_NFDRS_FEMS_2.png](/docs/screenshot_NFDRS_FEMS_2.png)
+
 
 
 ## Usage
