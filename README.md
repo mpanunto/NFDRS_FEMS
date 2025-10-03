@@ -26,9 +26,9 @@ Specify a start and end date for the FEMS data download in YYYY-MM-DD format.
 Specify a start and end date for the data download in MM-DD format. This will filter the historical data range to the user's specified "season" when calculating percentile breakpoints and percentile tables for each index.
 
 ### Create Charts (optional)
-When charts are requested, the historical data only needs to be downloaded and processed a single time. Users may disable "Process Historical Data" and generate charts at any time by specifying an output directory still containing the previously downloaded and processed historical data.
+If requested, charts are created for each of the user's specified indices using the output percentile breakpoint and day-of-year CSV files for each GACC/PSA/Station, 
 
-Using the PercentileBreakpoint and DOY CSV files for each GACC/PSA/Station, charts are created for each of the user's specified indices.
+When requesting charts, the historical data only needs to be downloaded and processed a single time. Users may generate charts at any time by specifying an output directory still containing the previously downloaded and processed historical data.
 
 The visual style of the charts was inspired by those made available via [Eric Drewitz's FireWxPy Python Library](https://pypi.org/project/firewxpy/)
 
