@@ -18,7 +18,7 @@ Products are generated at three geographic scales:
 ## Inputs
 
 ### Historical Data Range
-Specify a start and end date for the data download in YYYY-MM-DD format
+Specify a start and end date for the data download in YYYY-MM-DD format.
 
 ### Seasonal Filter (optional)
 Specify a start and end date for the data download in MM-DD format. This will filter the historical data range to the user's specified "season" when calculating percentile breakpoints and percentile tables for each index.
