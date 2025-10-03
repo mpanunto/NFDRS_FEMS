@@ -17,11 +17,22 @@ Products are generated at three geographic scales:
 
 ## Inputs
 
+![screenshot_NFDRS_FEMS_1.png](/docs/screenshot_NFDRS_FEMS_1.png)
+
 ### Historical Data Range
 Specify a start and end date for the data download in YYYY-MM-DD format.
 
 ### Seasonal Filter (optional)
 Specify a start and end date for the data download in MM-DD format. This will filter the historical data range to the user's specified "season" when calculating percentile breakpoints and percentile tables for each index.
+
+### Create Charts (optional)
+When charts are requested, the historical data only needs to be downloaded and processed a single time. Users may disable "Process Historical Data" and generate charts at any time by specifying an output directory still containing the previously downloaded and processed historical data.
+
+Using the PercentileBreakpoint and DOY CSV files for each GACC/PSA/Station, charts are created for each of the user's specified indices.
+
+The visual style of the charts was inspired by those made available via [Eric Drewitz's FireWxPy Python Library](https://pypi.org/project/firewxpy/)
+
+![screenshot_NFDRS_FEMS_2.png](/docs/screenshot_NFDRS_FEMS_2.png)
 
 ### StationList CSV
 Users must provide the [StationList.csv](https://github.com/mpanunto/NFDRS_FEMS/blob/main/StationList.csv) file as input, which specifies the stations to include in the analysis and which fuel model to use for each. The CSV also provides the corresponding GACC and PSA for each station, which is critical for correctly averaging the data across stations to generate accurate GACC/PSA-level values and charts. This CSV is included in the repository download, and is pre-populated with default stations from the Northern California Geographic Area Coordination Center (ONCC). Users may freely edit this file to include any stations they wish to process.
@@ -30,15 +41,7 @@ While the tool was originally designed to process FEMS data at the GACC and PSA 
 
 The below screenshot is an example of how the input CSV could be modified to download and process data for three FDRAs of the UTNUC (Northern Utah) dispatch boundary:
 
-![screenshot_NFDRS_FEMS_1.png](/docs/screenshot_NFDRS_FEMS_1.png)
-
-
--
-
-Seasonal Filter
--Filters the specified historical data range to the specified "fire season".
-
-![screenshot_NFDRS_FEMS_2.png](/docs/screenshot_NFDRS_FEMS_2.png)
+![screenshot_NFDRS_FEMS_1.png](/docs/screenshot_NFDRS_FEMS_3.png)
 
 ## Data Processing
 
@@ -69,13 +72,7 @@ The tool processes the FEMS data at 3 levels: GACC, PSA, and Station
  - Process above is applied to each individual station. However, since it is just an individual station, the historical record IS the “Daily Listing”. No averaging across stations is needed.
  - Repeated for each Station
 
-## NFDRS Charts
 
-Using the PercentileBreakpoint and DOY CSV files for each GACC/PSA/Station, charts are created for each of the user's specified indices.
-
-The visual style of the charts was inspired by those made available via [Eric Drewitz's FireWxPy Python Library](https://pypi.org/project/firewxpy/)
-
-![screenshot_NFDRS_FEMS_2.png](/docs/screenshot_NFDRS_FEMS_3.png)
 
 
 
