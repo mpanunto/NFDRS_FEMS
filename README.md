@@ -43,7 +43,7 @@ The below screenshot is an example of how the input CSV could be modified to dow
 
 ![screenshot_NFDRS_FEMS_1.png](/docs/screenshot_NFDRS_FEMS_3.png)
 
-## Data Processing
+## Data Processing Methods
 
 The tool processes the FEMS data at 3 levels: GACC, PSA, and Station
 
