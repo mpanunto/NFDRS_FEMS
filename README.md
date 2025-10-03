@@ -2,14 +2,14 @@
 
 # NFDRS_FEMS
 
-Tool that automates the download and processing of FEMS data for user-specified RAWS stations. For each selected fire danger index, it generates:
+Tool that automates the download and processing of FEMS data for user-specified RAWS stations. For each selected fire danger index, it creates:
 
 - Daily listings  
 - Percentile breakpoint tables  
 - Percentile lookup tables  
 - NFDRS charts
 
-Products are performed at three geographic scales:
+Products are generated at three geographic scales:
 
 - **GACC** (Geographic Area Coordination Center)  
 - **PSA** (Predictive Service Area)  
