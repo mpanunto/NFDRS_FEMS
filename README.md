@@ -47,7 +47,7 @@ The below screenshot is an example of how the input CSV could be modified to dow
 ![screenshot_NFDRS_FEMS_1.png](/docs/screenshot_NFDRS_FEMS_3.png)
 
 ### Specify Output Directory
-Specify directory to place for all downloads and output products.
+Specify directory to place all downloads and output products.
 
 ## Analysis Methods
 
