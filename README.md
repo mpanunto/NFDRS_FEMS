@@ -36,7 +36,7 @@ The visual style of the charts was inspired by those made available via [Eric Dr
 ![screenshot_NFDRS_FEMS_2.png](/docs/screenshot_NFDRS_FEMS_2.png)
 
 ### Select Indices to Process
-Specify one or more fire danger incices to process. The selected indices will be present in the output CSVs and will also have charts generated. Charts are available for 1000HrFM, 100HrFM, 10HrFM, 1HrFM, BI, ERC, IC, KBDI, and SC.
+Specify one or more fire danger incices to process. The selected indices will be present in the output CSVs and will also have charts generated (if requested). Charts are available for 1000HrFM, 100HrFM, 10HrFM, 1HrFM, BI, ERC, IC, KBDI, and SC.
 
 ### StationList CSV
 Users must provide the [StationList.csv](https://github.com/mpanunto/NFDRS_FEMS/blob/main/StationList.csv) file as input, which specifies the stations to include in the analysis and which fuel model to use for each. The CSV also provides the corresponding GACC and PSA for each station, which is critical for correctly averaging the data across stations to generate accurate GACC/PSA-level values and charts. This CSV is included in the repository download, and is pre-populated with default stations from the Northern California Geographic Area Coordination Center (ONCC). Users may freely edit this file to include any stations they wish to process.
@@ -90,6 +90,8 @@ Additionally, individual tabular outputs for each GACC/PSA/Station can be found 
 - xxxxx_DOY.csv = The "Day of Year" min/max/avg for the GACC/PSA/Station
 - xxxxx_PercentileBreakpoints.csv = The percentile breakpoints for the GACC/PSA/Station
 - xxxxx_PercentileTable.csv = The percentile table for the GACC/PSA/Station
+
+If charts were requested, they can be found in the "Charts" folder within each GACC directory.
 <br>
 
 ## Usage
