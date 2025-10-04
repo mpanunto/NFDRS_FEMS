@@ -46,7 +46,10 @@ The below screenshot is an example of how the input CSV could be modified to dow
 
 ![screenshot_NFDRS_FEMS_1.png](/docs/screenshot_NFDRS_FEMS_3.png)
 
-## Data Processing Methods
+### Specify Output Directory
+Specify directory to place for all downloads and output products.
+
+## Analysis Methods
 
 The tool processes the FEMS data at 3 levels: GACC, PSA, and Station
 
@@ -75,6 +78,11 @@ The tool processes the FEMS data at 3 levels: GACC, PSA, and Station
  - Process above is applied to each individual station. However, since it is just an individual station, the historical record IS the “Daily Listing”. No averaging across stations is needed.
  - Repeated for each Station
 
+## Outputs
+At the root of the output directory will be a "PercentileBreakpoints_All.csv" and "PercentileTable_All.csv". These 
+### All GACC/PSA/Station
+PercentileBreakpoints_All.csv
+PercentileTable_All.csv
 
 
 
