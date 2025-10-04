@@ -2,7 +2,7 @@
 
 # NFDRS_FEMS
 
-Tool that automates the download and processing of historical FEMS data for user-specified RAWS stations. For each selected fire danger index, it creates:
+ArcGIS Pro tool that automates the download and processing of historical FEMS data for user-specified RAWS stations. For each selected fire danger index, it creates:
 
 - Daily listings  
 - Percentile breakpoint tables  
