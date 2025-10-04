@@ -86,10 +86,10 @@ The tool processes the FEMS data at 3 levels: GACC, PSA, and Station
 At the root of the output directory will be a "PercentileBreakpoints_All.csv" and "PercentileTable_All.csv", which provide percentile breakpoint and percentile lookup tables for all GACC/PSA/Stations.
 
 Additionally, individual tabular outputs for each GACC/PSA/Station can be found by navigating to the GACC and/or PSA sub-folders within the "Historical" directory.
-- xxxxx_AvgDailyExtremes.csv = The "Daily Listing" for the GACC/PSA
-- xxxxx_DOY.csv = The "Day of Year" min/max/avg for the GACC/PSA/Station
-- xxxxx_PercentileBreakpoints.csv = The percentile breakpoints for the GACC/PSA/Station
-- xxxxx_PercentileTable.csv = The percentile table for the GACC/PSA/Station
+- xxxx_AvgDailyExtremes.csv = The "Daily Listing" for the GACC/PSA
+- xxxx_DOY.csv = The "Day of Year" min/max/avg for the GACC/PSA/Station
+- xxxx_PercentileBreakpoints.csv = The percentile breakpoints for the GACC/PSA/Station
+- xxxx_PercentileTable.csv = The percentile table for the GACC/PSA/Station
 
 If charts were requested, they can be found in the "Charts" folder within each GACC directory.
 <br>
