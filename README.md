@@ -27,7 +27,7 @@ Specify a start and end date for the FEMS data download in YYYY-MM-DD format.
 Specify a start and end date for the data download in MM-DD format. This will filter the historical data range to the user's specified "season" when calculating percentile breakpoints and percentile tables for each index.
 
 ### Create Charts (optional)
-If requested, charts are created for each of the user's specified indices. The user must also specify if the FEMS 'Production' or 'Staging' environment should be used for downloading the current year and forecast data.
+If requested, charts are created for each of the user's specified indices. The user must also specify if the FEMS "Production" or "Staging" environment should be used for downloading the current year and forecast data.
 
 When requesting charts, the historical data only needs to be downloaded and processed a single time. Users may generate charts at any time by specifying an output directory still containing the previously downloaded and processed historical data.
 
@@ -86,8 +86,8 @@ The tool processes the FEMS data at 3 levels: GACC, PSA, and Station
 At the root of the output directory will be a "PercentileBreakpoints_All.csv" and "PercentileTable_All.csv", which provide percentile breakpoint and percentile lookup tables for all GACC/PSA/Stations.
 
 Additionally, individual tabular outputs for each GACC/PSA/Station can be found by navigating to the GACC and/or PSA sub-folders within the "Historical" directory.
-- xxxxx_AvgDailyExtremes.csv = The 'Daily Listing' for the GACC/PSA
-- xxxxx_DOY.csv = The 'Day of Year' min/max/avg for the GACC/PSA/Station
+- xxxxx_AvgDailyExtremes.csv = The "Daily Listing" for the GACC/PSA
+- xxxxx_DOY.csv = The "Day of Year" min/max/avg for the GACC/PSA/Station
 - xxxxx_PercentileBreakpoints.csv = The percentile breakpoints for the GACC/PSA/Station
 - xxxxx_PercentileTable.csv = The percentile table for the GACC/PSA/Station
 <br>
