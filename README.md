@@ -71,15 +71,20 @@ The tool processes the FEMS data at 3 levels: GACC, PSA, and Station
    - Daily listing also used to create percentile lookup tables for each index
 
 ### PSA:
- - Process above is applied to only the group of stations within each PSA
+ - Methods for GACC are applied to only the group of stations within each PSA
  - Repeated for each PSA
 
 ### Station
- - Process above is applied to each individual station. However, since it is just an individual station, the historical record IS the “Daily Listing”. No averaging across stations is needed.
+ - Methods for GACC are applied to each individual station. However, since it is just an individual station, the historical record IS the “Daily Listing”. No averaging across stations is needed.
  - Repeated for each Station
 
 ## Outputs
-At the root of the output directory will be a "PercentileBreakpoints_All.csv" and "PercentileTable_All.csv". These 
+At the root of the output directory will be a "PercentileBreakpoints_All.csv" and "PercentileTable_All.csv", which provide percentile breakpoint and percentile lookup tables for all GACC/PSA/Stations. Additionally, specific outputs for each GACC and PSA can be found by navigating to the GACC and/or PSA sub-folders within the "Historical" directory.
+- xxxxx_AvgDailyExtremes.csv = The 'Daily Listing' for the GACC/PSA
+- xxxxx_DOY.csv = The 'Day of Year' min/max/avg for the GACC/PSA/Station (this IS the daily listing for the
+- xxxxx_PercentileBreakpoints.csv = The percentile breakpoints for the GACC/PSA/Station
+- xxxxx_PercentileTable.csv = The percentile table for the GACC/PSA/Station
+
 ### All GACC/PSA/Station
 PercentileBreakpoints_All.csv
 PercentileTable_All.csv
