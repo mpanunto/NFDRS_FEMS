@@ -14,6 +14,7 @@ Products are generated at three geographic scales:
 - **GACC** (Geographic Area Coordination Center)  
 - **PSA** (Predictive Service Area)  
 - **Station**
+<br>
 
 ## Inputs
 
@@ -48,6 +49,8 @@ The below screenshot is an example of how the input CSV could be modified to dow
 
 ### Specify Output Directory
 Specify directory to place all downloads and output products.
+<br>
+<br>
 
 ## Analysis Methods
 
@@ -77,6 +80,7 @@ The tool processes the FEMS data at 3 levels: GACC, PSA, and Station
 ### Station
  - Methods for GACC are applied to each individual station. However, since it is just an individual station, the historical record IS the “Daily Listing”. No averaging across stations is needed.
  - Repeated for each Station
+<br>
 
 ## Outputs
 At the root of the output directory will be a "PercentileBreakpoints_All.csv" and "PercentileTable_All.csv", which provide percentile breakpoint and percentile lookup tables for all GACC/PSA/Stations. Additionally, individual tabular outputs for each GACC/PSA/Station can be found by navigating to the GACC and/or PSA sub-folders within the "Historical" directory.
@@ -84,7 +88,7 @@ At the root of the output directory will be a "PercentileBreakpoints_All.csv" an
 - xxxxx_DOY.csv = The 'Day of Year' min/max/avg for the GACC/PSA/Station
 - xxxxx_PercentileBreakpoints.csv = The percentile breakpoints for the GACC/PSA/Station
 - xxxxx_PercentileTable.csv = The percentile table for the GACC/PSA/Station
-
+<br>
 
 ## Usage
 
