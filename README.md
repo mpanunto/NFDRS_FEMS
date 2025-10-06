@@ -24,7 +24,7 @@ Products are generated at three geographic scales:
 Specify a start and end date for the FEMS data download in YYYY-MM-DD format.
 
 ### Seasonal Filter (optional)
-Specify a start and end date for the data download in MM-DD format. This will filter the historical data range to the user's specified "season" when calculating percentile breakpoints and percentile tables for each index.
+Specify a start and end date in MM-DD format. This will filter the historical data range to the user's specified "season" when calculating percentile breakpoints and percentile tables for each index.
 
 ### Create Charts (optional)
 If requested, charts are created for each of the user's specified indices. The user must also specify if the FEMS "Production" or "Staging" environment should be used for downloading the current year and forecast data.
