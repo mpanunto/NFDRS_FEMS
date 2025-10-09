@@ -23,9 +23,6 @@ Products are generated at three geographic scales:
 ### Process Historical Data (optional)
 If requested, FEMS data will be downloaded for all stations in the StationList.csv, and processed to generate daily listings, and percentile breakpoint & lookup tables.
 
-### Seasonal Filter (optional)
-Specify a start and end date in MM-DD format. This will filter the historical data range to the user's specified "season" when calculating percentile breakpoints and percentile tables for each index.
-
 ### Create Charts (optional)
 If requested, charts are created for each of the user's specified indices. The user must also specify if the FEMS "Production" or "Staging" environment should be used for downloading the current year and forecast data.
 
@@ -39,7 +36,7 @@ The visual style of the charts was inspired by those made available via [Eric Dr
 Specify one or more fire danger incdices to process. The selected indices will be present in the output CSVs and will also have charts generated (if requested). Charts are available for 1000HrFM, 100HrFM, 10HrFM, 1HrFM, BI, ERC, IC, KBDI, and SC.
 
 ### StationList CSV
-Users must provide the [StationList.csv](https://github.com/mpanunto/NFDRS_FEMS/blob/main/StationList.csv) file as input, which specifies the stations to include in the analysis and which fuel model to use for each. The CSV also provides the corresponding GACC and PSA for each station, which is critical for correctly averaging the data across stations to generate accurate GACC/PSA-level values and charts. This CSV is included in the repository download, and is pre-populated with default stations from the Northern California Geographic Area Coordination Center (ONCC). Users may freely edit this file to include any stations they wish to process.
+Users must provide the [StationList.csv](https://github.com/mpanunto/NFDRS_FEMS/blob/main/StationList.csv) file as input, which specifies the stations to include in the analysis, which fuel model to use for each, and the corresponding period of record and percentile filter start/end dates. The CSV also provides the GACC and PSA for each station, which is critical for correctly averaging the data across stations to generate accurate GACC/PSA-level outputs. This CSV is included in the repository download, and is pre-populated with default stations from the Northern California Geographic Area Coordination Center (ONCC). Users may freely edit this file to include any stations they wish to process.
 
 While the tool was originally designed to process FEMS data at the GACC and PSA levels, these fields of the input CSV are flexible. Users simply need to ensure consistent naming for their chosen GACC and PSA values. For example, a PSA could represent a custom group of stations within a FDRA, Dispatch Boundary, or any other user-defined region. ***However, the original field names of the input CSV must not be changed***.
 
