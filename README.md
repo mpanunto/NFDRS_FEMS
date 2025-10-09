@@ -20,8 +20,8 @@ Products are generated at three geographic scales:
 
 ![screenshot_NFDRS_FEMS_1.png](/docs/screenshot_NFDRS_FEMS_1.png)
 
-### Historical Data Range
-Specify a start and end date for the FEMS data download in YYYY-MM-DD format.
+### Process Historical Data (optional)
+If requested, FEMS data will be downloaded for all stations in the StationList.csv, and processed to generate daily listings, and percentile breakpoint & lookup tables.
 
 ### Seasonal Filter (optional)
 Specify a start and end date in MM-DD format. This will filter the historical data range to the user's specified "season" when calculating percentile breakpoints and percentile tables for each index.
