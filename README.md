@@ -65,7 +65,7 @@ The tool processes the FEMS data at 3 levels: GACC, PSA, and Station
 3. Using the Daily Listing, the min/max/avg is then calculated for all indices for each “Day of Year” (1-365).
    - Ex: from 01-01-2005 to 12-31-2022, there are 18 July 1st’s in the daily listing. The min/max/avg of these 18 values is calculated to determine the “Day Of Year” min/max/avg for each index.
    - Some refer to the 1-365 values as the “Julian Day” values, but “Day of Year” is more appropriate.
-4. A percentile filter (fire season date range filter) is then applied to the daily listing, which is used to determine the percentile breakpoints, and percentile lookup tables for each index
+4. A percentile filter (fire season date range filter) is then applied to the daily listing, which after being filtered is used to determine the percentile breakpoints, and percentile lookup tables for each index
    - **Index Thresholds**:
       - **1HrFM/10HrFM/100HrFM/1000HrFM**: 40, 20, 10, 3, 1
       - **All others**: 60, 80, 90, 97, 100   
