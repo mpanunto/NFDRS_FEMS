@@ -33,7 +33,7 @@ The visual style of the charts was inspired by those made available via [Eric Dr
 ![screenshot_NFDRS_FEMS_2.png](/docs/screenshot_NFDRS_FEMS_2.png)
 
 ### Select Indices to Process and Percentile Breakpoints
-Specify one or more fire danger indices to process. The selected indices will be present in the output CSVs and will also have charts generated (if requested). Charts are available for 1000HrFM, 100HrFM, 10HrFM, 1HrFM, BI, ERC, IC, KBDI, and SC. The data analysis functions and chart creation is dynamic based on the user's specified percentile breakpoints for each index.
+Specify one or more fire danger indices to process. The selected indices will be present in the output CSVs and will also have charts generated (if requested). Charts are available for 1000HrFM, 100HrFM, 10HrFM, 1HrFM, BI, ERC, IC, KBDI, and SC. The data analysis functions and chart creation adjusts dynamically based on the user's specified percentile breakpoints for each index.
 
 ### StationList CSV
 Users must provide the [StationList.csv](https://github.com/mpanunto/NFDRS_FEMS/blob/main/StationList.csv) file as input, which specifies **1)** the stations to include in the analysis, **2)** which fuel models to use, **3)** period of record start/end dates, and **4)** percentile filter start/end dates. The CSV also provides the GACC and PSA for each station, which is critical for correctly averaging the data across stations to generate accurate GACC/PSA-level outputs. This CSV is included in the repository download, and is pre-populated with default stations from the Northern California Geographic Area Coordination Center (ONCC). Users may freely edit this file to include any stations they wish to process.
