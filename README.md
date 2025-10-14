@@ -4,9 +4,10 @@
 
 ArcGIS Pro tool that automates the download and processing of historical FEMS data for user-specified RAWS stations. For each selected fire danger index, it creates:
 
-- Daily listings  
+- Daily listings
+- Day of Year Summaries
 - Percentile breakpoint tables  
-- Percentile lookup tables  
+- Percentile lookup tables 
 - NFDRS charts
 
 Products are generated at three geographic scales:
