@@ -22,7 +22,7 @@ Products are generated at three geographic scales:
 ![screenshot_NFDRS_FEMS_1.png](/docs/screenshot_NFDRS_FEMS_1.png)
 
 ### Process Historical Data
-If requested, FEMS data will be downloaded for all stations in the StationList.csv, and processed to generate daily listings, percentile breakpoints, and percentile lookup tables.
+If requested, FEMS data will be downloaded for all stations in the StationList.csv, and processed to generate daily listings, day of year summaries, percentile breakpoints, and percentile lookup tables.
 
 ### Create Charts
 If requested, charts are created for each of the user's specified indices. The user must also specify if the FEMS "Production" or "Staging" environment should be used for downloading the current year and forecast data.
